@@ -75,7 +75,7 @@ namespace TechJobsOO
                 }
                 sb2.Append(field + "\n");
             }
-            Console.WriteLine(sb2.ToString());
+            //Console.WriteLine(sb2.ToString());
             return sb2.ToString();
         }
 
