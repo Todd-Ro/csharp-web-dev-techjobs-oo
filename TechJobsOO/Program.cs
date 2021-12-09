@@ -22,6 +22,11 @@ namespace TechJobsOO
                 Console.WriteLine(job);
             }
             */
+
+            Job testJob = new Job("Product tester", new Employer("ACME"), new Location("Desert"),
+                new PositionType("Quality control"), new CoreCompetency("Persistence"));
+            testJob.ToString();
+            Console.WriteLine("String");
         }
     }
 }
