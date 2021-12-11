@@ -30,10 +30,7 @@ namespace TechJobsOO
         }
 
         //Equals will be overridden in the child classes
-        public override bool Equals(object obj)
-        {
-            return (obj is JobField jobField &&
-                   Id == jobField.Id);
-        }
+        public abstract override bool Equals(object obj);
+        
     }
 }
